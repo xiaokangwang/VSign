@@ -4,11 +4,12 @@ import (
 	"archive/zip"
 	"crypto/sha256"
 	"encoding/hex"
-	"github.com/v2fly/VSign/common"
-	"github.com/v2fly/VSign/insmgr"
 	"io"
 	"os"
 	"strings"
+
+	"github.com/v2fly/VSign/common"
+	"github.com/v2fly/VSign/insmgr"
 )
 
 type FileBasedInsYield struct {

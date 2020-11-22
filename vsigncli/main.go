@@ -3,13 +3,14 @@ package main
 import (
 	"bytes"
 	"fmt"
+	"io"
+	"io/ioutil"
+	"os"
+
 	"github.com/v2fly/VSign/insmgr"
 	"github.com/v2fly/VSign/instimp"
 	"github.com/v2fly/VSign/sign"
 	"github.com/v2fly/VSign/signerVerify"
-	"io"
-	"io/ioutil"
-	"os"
 )
 
 func main() {

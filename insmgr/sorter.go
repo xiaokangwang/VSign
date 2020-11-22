@@ -1,8 +1,9 @@
 package insmgr
 
 import (
-	"github.com/v2fly/VSign/instructions"
 	"sort"
+
+	"github.com/v2fly/VSign/instructions"
 )
 
 type SortableInstructions struct {

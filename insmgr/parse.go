@@ -2,8 +2,9 @@ package insmgr
 
 import (
 	"bufio"
-	"github.com/v2fly/VSign/instructions"
 	"io"
+
+	"github.com/v2fly/VSign/instructions"
 )
 
 func ReadAllIns(reader io.Reader) []instructions.Instruction {

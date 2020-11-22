@@ -2,8 +2,9 @@ package insmgr
 
 import (
 	"fmt"
-	"github.com/v2fly/VSign/instructions"
 	"io"
+
+	"github.com/v2fly/VSign/instructions"
 )
 
 type OutputInsMgr struct {

@@ -2,6 +2,7 @@ package v2signkey
 
 import (
 	"bytes"
+
 	"github.com/v2fly/VSign/sign/signify"
 )
 

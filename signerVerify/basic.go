@@ -1,8 +1,6 @@
 package signerVerify
 
-import (
-	"github.com/v2fly/VSign/instructions"
-)
+import "github.com/v2fly/VSign/instructions"
 
 func CheckVersionAndProject(ins []instructions.Instruction, version, project string) bool {
 	var correctProject bool

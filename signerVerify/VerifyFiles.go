@@ -2,10 +2,11 @@ package signerVerify
 
 import (
 	"fmt"
+	"io"
+
 	"github.com/v2fly/VSign/insmgr"
 	"github.com/v2fly/VSign/instimp"
 	"github.com/v2fly/VSign/v2signkey"
-	"io"
 )
 
 func CheckSignaturesFromFile(publicKey []byte, signatureFile io.Reader, project string, files []string) (string, map[string]string, error) {

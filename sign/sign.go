@@ -5,10 +5,11 @@ import (
 	"crypto/rand"
 	"encoding/base64"
 	"errors"
-	"github.com/v2fly/VSign/sign/signify"
-	"golang.org/x/crypto/sha3"
 	"io"
 	"io/ioutil"
+
+	"github.com/v2fly/VSign/sign/signify"
+	"golang.org/x/crypto/sha3"
 )
 
 func GenerateKeyFromSeed(seed string, password string) ([]byte, []byte) {

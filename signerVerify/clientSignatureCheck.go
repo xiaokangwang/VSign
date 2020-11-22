@@ -3,9 +3,10 @@ package signerVerify
 import (
 	"bytes"
 	"errors"
+	"io"
+
 	"github.com/v2fly/VSign/insmgr"
 	"github.com/v2fly/VSign/sign"
-	"io"
 )
 
 func CheckSignature(publicKey []byte, signatureFile io.Reader, hash map[string]string, project string) (string, error) {

@@ -1,8 +1,6 @@
 package insmgr
 
-import (
-	"github.com/v2fly/VSign/instructions"
-)
+import "github.com/v2fly/VSign/instructions"
 
 type HashCollectorMgr struct {
 	hash     map[string]string
